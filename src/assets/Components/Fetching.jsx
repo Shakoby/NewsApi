@@ -63,7 +63,7 @@ const Fetch = () => {
 
   return (
     <div>
-        <h1>News Api</h1>
+        <h1>Test changes News Api</h1>
       <h2>Total Results: {totalResults}</h2>
       <input
         type="text"
