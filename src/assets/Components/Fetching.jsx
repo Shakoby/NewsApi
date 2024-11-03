@@ -20,6 +20,7 @@ const Fetch = () => {
     // Fetch data from the API
     fetch(`https://newsapi.org/v2/everything?q=${searchQ}&pageSize=${articlesPerPage}&page=${currentPage}&language=en&apiKey=aa8e74ab640d47478f64e2871d3918b3`)
       .then((response) => {
+        console.log('Response:', response); // Log the response
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }

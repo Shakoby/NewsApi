@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Shakoby.github.io/NewsApi",
   "name": "news-react",
   "private": true,
   "version": "0.0.0",
@@ -9,9 +10,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://Shakoby.github.io/NewsApi",
+ 
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
