@@ -2,7 +2,7 @@ import './App.css'
 import Fetch from './assets/Components/Fetching'
 import Fetch2 from './assets/Components/Fetching2'
 import Fetch3 from './assets/Components/Fetching3'
-import { BrowserRouter as Router, Route, Routes, NavLink } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, NavLink } from 'react-router-dom';
 
 function App() {
 
